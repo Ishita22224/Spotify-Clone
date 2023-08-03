@@ -1,0 +1,83 @@
+SPOTIFY CLONING:
+
+1. We cannot inspect spotify website due to some javascript settings so to avoid it, we login to spotify then open a new icognito mode page and open inspect there and copy paste the link there. Then we can inspect it there
+
+A clone is always a good project to add on resume.
+We need to make very similar, do not need to make an exact copy.
+
+1. We will use a lot of icons from font awesome so we first copy its cdn link.
+2. We go Spotify Title, with logo and the text.
+    To link icon, we make the relation as icon and copy paste the relative path.
+
+3. The entire screen is divided into 3 parts, a. the sidebar, b. music player, c. the main body
+
+4. The first styling we will do for font style as it is a lot same allover the website. we will be using monteserat. We copy the link and place it in the head tag and to apply it to the entire website, we body {} and paste here the css format of specifying the font-family to be used
+
+5. Now we are going to specify margin=0; (so the extra spaces go out)
+
+6. Background color: black
+    color white.
+    overflow:hidden
+
+        overflow:visible;
+                 hidden; (we cannot see the rest text at all)
+                 clip;
+                 auto;
+                 scroll;
+
+    then why we have set it to hidden?
+    Ans: the point is we cannot scroll on the entire screen, we can only scroll at the main content part. so when we will style main content, we will make its overflow:scroll;
+
+7. main ko display flex karenge, because we will set others using flex.
+
+8. We will set the sizing of all the three places.
+
+    side bar has to be some specific pixels.
+    main content has to occupy the remainning space (flex grow: 1)
+    music player has its position fixed at the most bottom so we assign it as fixed;
+
+9. we set border-radius + overflow of main content;
+
+10. We set colors. we can see the exact color used on a website using color picker on  the net.
+
+
+11. NOW WE TALK ABOUT SIDE BAR: 
+    we are going to divide the entire side bar into two divs. one will be nav and other will be the library part.
+
+    We will add icon and href link'
+
+    set styling'
+
+
+12. THen we go to the main content
+
+    difference between sticky and fixed is that sticky gets fixed only when we scroll over the content.
+
+
+sticky nav and content are overlapping so we set z index porperty
+
+
+we can change the time as we change the music player time, but we can do this application after we learn javascript.
+
+APPEARANCE in css
+THE APpearance in CSS property is used to contral naive appearance of UI .
+It controls UI of the system.
+
+the default settings of html elements are set by apperance.
+
+we are going to set progrees bar according to it.
+we set it to none, and we get raw type and we are going to styl eit now.
+
+
+
+QUIRKSMODE.ORG ---> IS THE WEBSITE WHICH WE SHOULD SEE 
+
+STYLING AND SCRIPTING SLIDERS. 
+TRACK(straight line in radio input) AND THUMB (dot in the radio input)
+
+to style thumb we do :: webkit-slider-thumb
+track:: webkit-slider-runnable-track
+
+they are pseudo elements we should style using this.
+
+refer to the above document.
